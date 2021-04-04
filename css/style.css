@@ -1,0 +1,120 @@
+/* start general */
+
+body{
+    overflow: hidden;
+    background-color: #d9ff00;
+}
+.container{
+    width: 100vw;
+    margin: 20px auto;
+}
+/* end general */
+/* start nav */
+
+/* end nav */
+#head{
+    background-color: #b10000;
+    width: 200px;
+    height: 50px;
+    left: 100px;
+    border-top-right-radius: 100px;
+    border-top-left-radius:100px;
+    position: relative;
+    z-index: 8;
+}
+#win1{
+    background-color: aquamarine;
+    width: 60px;
+    height:40px;
+    left: 20px;
+    border-top-left-radius:20px;
+    margin: 5px;
+    z-index: 9;
+    position: absolute;
+}
+#win2{
+    background-color: aquamarine;
+    width: 60px;
+    height:40px;
+    left: 100px;
+    margin: 5px;
+    border-top-right-radius:10px;
+    z-index: 9;
+    position: absolute;
+}
+#body{
+    background-color: #b10000;
+    width: 300px;
+    height:60px;
+    left: 50px;
+    border-radius:10px;
+    border-top-left-radius:20px;
+    border-top-right-radius:50px;
+    z-index: 7;
+    position: relative;
+}
+#tier1{
+    background-color:#d9ff00;
+    /* border: 5px solid #fff; */
+    width: 50px;
+    height: 40px;
+    left: 100px;
+    top: -30px;
+    z-index: 8;
+    position: relative;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+}
+#tier2{
+    background-color:#d9ff00;
+    /* border: 5px solid #fff; */
+    width: 50px;
+    height: 40px;
+    left: 250px;
+    top: -72px;
+    position: relative;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    z-index: 8;
+}
+#tir1{
+    width: 60px;
+    height:60px;
+    background-color: #000000;
+    border-radius: 100px;
+    top: -110px;
+    left: 95px;
+    z-index:9;
+    position: relative;
+}
+#tir2{
+    width: 60px;
+    height:60px;
+    background-color: #000000;
+    border-radius: 100px;
+    top: -172px;
+    left: 245px;
+    z-index:8;
+    position: relative;
+}
+#wil-1{
+    position: absolute;
+    top: 30px;
+    left:30px;
+    transform: translate(-50%,-50%);
+    width: 20px;
+    height: 20px;
+    background-color: #afafaf;
+    border-radius: 100px;
+}
+#wil-2{
+    position: absolute;
+    top: 29px;
+    left:180px;
+    transform: translate(-50%,-50%);
+    width: 20px;
+    height: 20px;
+    z-index: 9;
+    background-color: #afafaf;
+    border-radius: 100px;
+}
